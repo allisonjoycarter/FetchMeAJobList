@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fetch Me a Job List</string>
+    <string name="collapse_x">Collapse %1$s</string>
+    <string name="expand_x">Expand %1$s</string>
+    <string name="list_x">List %1$s</string>
+    <string name="an_unexpected_error_occurred">An unexpected error occurred.</string>
+    <string name="retry">Retry</string>
+</resources>
