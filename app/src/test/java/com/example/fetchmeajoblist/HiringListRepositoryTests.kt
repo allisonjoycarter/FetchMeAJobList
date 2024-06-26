@@ -128,5 +128,7 @@ class HiringListRepositoryTests {
         assertEquals(1, hiringListItems.first().listId)
         assertEquals("ABC", hiringListItems.first().name)
         assertEquals("ABC", hiringListItems.first { it.listId == 1 }.name)
+        assertEquals("ABC", hiringListItems.first { it.listId == 2 }.name)
+        assertEquals("JKL", hiringListItems.last { it.listId == 2 }.name)
     }
 }
